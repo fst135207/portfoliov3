@@ -8,7 +8,6 @@ import selfie from "@/public/selfie.jpg"
 
 export default function Profile() {
     return (
-        <div className="sticky top-0 h-screen">
         <div className="flex flex-col sm:flex-row items-center sm:items-start">
           <Avatar className="w-16 h-16 mb-4 sm:mb-0 sm:ml-4 md:ml-16 mt-4 sm:mt-16">
             <AvatarImage src={selfie.src} />
@@ -16,10 +15,10 @@ export default function Profile() {
           </Avatar>
           <div className="flex flex-col text-center sm:text-left">
             <h1 className="text-xl sm:text-2xl text-blue-600 font-bold sm:ml-5 mt-2 sm:mt-16">
-              Hi, I&apos;m Felix
+              Hallo, ich bin Felix.
             </h1>
-            <p className="text-sm sm:text-base sm:ml-5 mt-1">
-              Im a Platform Engineer working currently at Identitas AG
+            <p className="text-gray-800 text-sm sm:text-base sm:ml-5 mt-1">
+            Ich mache eine Ausbildung zum Plattformentwickler bei der Identitas AG.
             </p>
             <div className="flex items-center justify-between sm:ml-5 mt-2">
               <div className="flex items-center gap-1">
@@ -40,6 +39,5 @@ export default function Profile() {
             </div>
           </div>
         </div>
-      </div>
     )
 }

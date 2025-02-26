@@ -33,16 +33,14 @@ const experiences: ExperienceCard[] = [
 export default function Experience() {
   return (
     <div>
-            <h2 className="text-2xl font-bold text-blue-600 my-4">Experience</h2>
+            <h2 className="text-2xl font-bold text-blue-600 my-4">Berufserfahrung</h2>
             <div className="relative">
+              {/* Timeline line */}
+              <div className="absolute left-1.5 top-5 w-0.5 bg-gray-700" style={{ height: 'calc(100% - 19rem)'}}/>
               {experiences.map((exp, index) => (
                 <div key={exp.id} className="mb-8 relative">
-                  {/* Timeline dot and line */}
-                  <div className="absolute left-0.4 top-2 w-3 h-3 bg-gray-700 rounded-full" />
-                  {index !== experiences.length - 1 && (
-                    <div className="absolute left-1.5 top-5 w-0.5 h-full bg-gray-700" />
-                  )}
-
+                  {/* Timeline dot */}
+                  <div className="absolute left-0.5 top-3 w-3 h-3 bg-gray-700 rounded-full" />
                   {/* Experience card */}
                   <Card className="ml-8 p-6">
                     <div className="mb-4">
