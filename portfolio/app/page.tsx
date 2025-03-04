@@ -15,8 +15,8 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-blue-600">Meine Projekte</h2>
           <p className="text-gray-800 text-sm sm:text-base">Eine sammlung an Projekten an denen ich momentan arbeite.</p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-2">
-          <div className="pl-16 px-12 pt-6 pb-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4">
+          <div className="pl-16 px-12 pt-10 pb-6">
             <ProjectCard
               title="Cooked or Cracked"
               description="This is a really cool project that does amazing things with cutting-edge technology!"
@@ -27,7 +27,7 @@ export default function Home() {
               forks={42}
             />
           </div>
-          <div className="px-12 pt-6">
+          <div className="px-12 pt-10">
             <ProjectCard
               title="Portfolio V2"
               description="This is a really cool project that does amazing things with cutting-edge technology!"
