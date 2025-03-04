@@ -1,5 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import Describtion from "./Describtion";
+import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 interface ExperienceCard {
@@ -37,7 +36,7 @@ export default function Experience() {
             <div className="relative">
               {/* Timeline line */}
               <div className="absolute left-1.5 top-5 w-0.5 bg-gray-700" style={{ height: 'calc(100% - 19rem)'}}/>
-              {experiences.map((exp, index) => (
+              {experiences.map((exp) => (
                 <div key={exp.id} className="mb-8 relative">
                   {/* Timeline dot */}
                   <div className="absolute left-0.5 top-3 w-3 h-3 bg-gray-700 rounded-full" />

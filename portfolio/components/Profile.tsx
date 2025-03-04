@@ -1,7 +1,4 @@
-import { Card } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Globe, GitFork, MapPin } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Github, Linkedin, MapPin } from "lucide-react"
 import { SiLeetcode } from "react-icons/si"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import selfie from "@/public/selfie.jpg"
@@ -9,12 +6,12 @@ import selfie from "@/public/selfie.jpg"
 export default function Profile() {
     return (
         <div className="flex flex-col sm:flex-row items-center sm:items-start">
-          <Avatar className="w-16 h-16 mb-4 sm:mb-0 sm:ml-4 md:ml-16 mt-4 sm:mt-16">
+          <Avatar className="w-16 h-16 mb-4 sm:mb-0 mt-4 sm:mt-7">
             <AvatarImage src={selfie.src} />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
           <div className="flex flex-col text-center sm:text-left">
-            <h1 className="text-xl sm:text-2xl text-blue-600 font-bold sm:ml-5 mt-2 sm:mt-16">
+            <h1 className="text-xl sm:text-2xl text-blue-600 font-bold sm:ml-5 mt-2 sm:mt-5">
               Hallo, ich bin Felix.
             </h1>
             <p className="text-gray-800 text-sm sm:text-base sm:ml-5 mt-1">
