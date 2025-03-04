@@ -41,8 +41,8 @@ export default function ProjectCard({
           <div className="text-3xl text-primary">{icon}</div>
           <div>
             <CardTitle className="text-xl text-blue-500">{title}</CardTitle>
-            {technologies.map((tech, index) => (
-              <Badge key={index} variant="outline" className="mt-1 text-indigo-400 mr-1">
+            {technologies.map((tech, id) => (
+              <Badge key={id} variant="outline" className="mt-1 text-indigo-400 mr-1">
                 <span className="technology">{tech}</span>
               </Badge>
             ))}
