@@ -1,7 +1,4 @@
-import { Card } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Globe, GitFork, MapPin } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Github, Linkedin, MapPin } from "lucide-react"
 import { SiLeetcode } from "react-icons/si"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import selfie from "@/public/selfie.jpg"

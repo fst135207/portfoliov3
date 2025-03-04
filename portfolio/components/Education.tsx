@@ -1,6 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import Describtion from "./Describtion";
-import { Badge } from "@/components/ui/badge";
+import { Card } from "@/components/ui/card";
 
 interface EducationCard {
   id: number;

@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 
 interface ProjectCardProps {
+  id: number
   title: string
   description: string
   icon: React.ReactNode
@@ -21,6 +22,7 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({
+  id,
   title,
   description,
   icon,
@@ -39,9 +41,9 @@ export default function ProjectCard({
           <div className="text-3xl text-primary">{icon}</div>
           <div>
             <CardTitle className="text-xl text-blue-500">{title}</CardTitle>
-              {technologies.map((tech, index) => (
+              {technologies.map((tech, id) => (
               <Badge variant="outline" className="mt-1 text-indigo-400 mr-1">
-              <span key={index} className="technology">{tech}</span>
+              <span key={id} className="technology">{tech}</span>
               </Badge>
             ))}
           </div>

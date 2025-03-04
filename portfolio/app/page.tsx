@@ -18,6 +18,7 @@ export default function Home() {
           <p className="text-gray-800 text-sm sm:text-base">Eine sammlung an Projekten an denen ich momentan arbeite.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
             <ProjectCard
+              id={1}
               title="Cooked or Cracked"
               description="This is tesa really cool project that does amazing things with cutting-edge technology!"
               icon={<GraduationCap size={32} />}
@@ -25,6 +26,7 @@ export default function Home() {
               projectUrl="https://cookedorcracked.com"
             />
             <ProjectCard
+              id={2}
               title="Portfolio V2"
               description="This is a really cool project that does amazing things with cutting-edge technology!"
               icon={<Code2 size={32} />}
@@ -34,6 +36,7 @@ export default function Home() {
               forks={42}
             />
             <ProjectCard
+              id={3}
               title="XAUUSD Forecast"
               description="This is a really cool project that does amazing things with cutting-edge technology!"
               icon={<Code2 size={32} />}
@@ -43,6 +46,7 @@ export default function Home() {
               forks={42}
             />
             <ProjectCard
+              id={4}
               title="Pixoo"
               description="This is a really cool project that does amazing things with cutting-edge technology!"
               icon={<Code2 size={32} />}
@@ -75,6 +79,7 @@ export default function Home() {
               <p className="text-gray-800 text-sm sm:text-base">Eine sammlung an Projekten an denen ich momentan arbeite.</p>
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 mt-4">
                 <ProjectCard
+                  id={1}
                   title="Cooked or Cracked"
                   description="This is a really cool project that does amazing things with cutting-edge technology!"
                   icon={<GraduationCap size={32} />}
@@ -82,6 +87,7 @@ export default function Home() {
                   projectUrl="https://cookedorcracked.com"
                 />
                 <ProjectCard
+                  id={2}
                   title="Portfolio V2"
                   description="This is a really cool project that does amazing things with cutting-edge technology!"
                   icon={<Code2 size={32} />}
@@ -91,6 +97,7 @@ export default function Home() {
                   forks={0}
                 />
                 <ProjectCard
+                  id={3}
                   title="Kriminalstatistik Bernn"
                   description="This is a really cool project that does amazing things with cutting-edge technology!"
                   icon={<Code2 size={32} />}
@@ -100,6 +107,7 @@ export default function Home() {
                   forks={0}
                 />
                 <ProjectCard
+                  id={4}
                   title="Pixoo"
                   description="This is a really cool project that does amazing things with cutting-edge technology!"
                   icon={<Code2 size={32} />}
