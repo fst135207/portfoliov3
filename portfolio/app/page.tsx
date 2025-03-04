@@ -17,44 +17,44 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-blue-600 mb-2">Meine Projekte</h2>
           <p className="text-gray-800 text-sm sm:text-base">Eine sammlung an Projekten an denen ich momentan arbeite.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-            <ProjectCard
-              id={1}
-              title="Cooked or Cracked"
-              description="This is tesa really cool project that does amazing things with cutting-edge technology!"
-              icon={<GraduationCap size={32} />}
-              technologies={["Next.js", "React"]}
-              projectUrl="https://cookedorcracked.com"
-            />
-            <ProjectCard
-              id={2}
-              title="Portfolio V2"
-              description="This is a really cool project that does amazing things with cutting-edge technology!"
-              icon={<Code2 size={32} />}
-              technologies={["Next.js", "React"]}
-              githubUrl="https://github.com/username/awesome-project"
-              stars={1337}
-              forks={42}
-            />
-            <ProjectCard
-              id={3}
-              title="XAUUSD Forecast"
-              description="This is a really cool project that does amazing things with cutting-edge technology!"
-              icon={<Code2 size={32} />}
-              technologies={["Next.js", "React"]}
-              githubUrl="https://github.com/username/awesome-project"
-              stars={1337}
-              forks={42}
-            />
-            <ProjectCard
-              id={4}
-              title="Pixoo"
-              description="This is a really cool project that does amazing things with cutting-edge technology!"
-              icon={<Code2 size={32} />}
-              technologies={["Next.js", "React"]}
-              githubUrl="https://github.com/username/awesome-project"
-              stars={1337}
-              forks={42}
-            />
+          <ProjectCard
+                  id={1}
+                  title="Cooked or Cracked"
+                  description="Kleines Side-Project, finde heraus ob du in deinem Fachgebiet Cooked oder Cracked bist."
+                  icon={<GraduationCap size={32} />}
+                  technologies={["Next.js", "React", "Typescript", "PostgreSQL", "Django", "Redis", "Docker", "AWS EKS"]}
+                  projectUrl="https://cookedorcracked.com"
+                />
+                <ProjectCard
+                  id={2}
+                  title="Portfolio V3"
+                  description="Mein jetziges Portfolio."
+                  icon={<Code2 size={32} />}
+                  technologies={["Next.js", "React", "Typescript"]}
+                  githubUrl="https://github.com/fst135207/portfoliov3"
+                  stars={0}
+                  forks={0}
+                />
+                <ProjectCard
+                  id={3}
+                  title="Kriminalstatistik Bernn"
+                  description="Darstellung der Kriminalstatistik von Bern."
+                  icon={<Code2 size={32} />}
+                  technologies={[]}
+                  githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
+                  stars={0}
+                  forks={0}
+                />
+                <ProjectCard
+                  id={4}
+                  title="Pixoo"
+                  description="Pixoo64 Display programmiert mit Python mit adaptiven Wetter Icons, Temperatur, Datum und Zeit"
+                  icon={<Code2 size={32} />}
+                  technologies={["Python"]}
+                  githubUrl="https://github.com/fst135207/pixoo"
+                  stars={0}
+                  forks={0}
+                />
           </div>
         </div>
 
@@ -81,38 +81,38 @@ export default function Home() {
                 <ProjectCard
                   id={1}
                   title="Cooked or Cracked"
-                  description="This is a really cool project that does amazing things with cutting-edge technology!"
+                  description="Kleines Side-Project, finde heraus ob du in deinem Fachgebiet Cooked oder Cracked bist."
                   icon={<GraduationCap size={32} />}
-                  technologies={["Next.js", "React"]}
+                  technologies={["Next.js", "React", "Typescript", "PostgreSQL", "Django", "Redis", "Docker", "AWS EKS"]}
                   projectUrl="https://cookedorcracked.com"
                 />
                 <ProjectCard
                   id={2}
-                  title="Portfolio V2"
-                  description="This is a really cool project that does amazing things with cutting-edge technology!"
+                  title="Portfolio V3"
+                  description="Mein jetziges Portfolio."
                   icon={<Code2 size={32} />}
-                  technologies={["Next.js", "React"]}
-                  githubUrl="https://github.com/username/awesome-project"
+                  technologies={["Next.js", "React", "Typescript"]}
+                  githubUrl="https://github.com/fst135207/portfoliov3"
                   stars={0}
                   forks={0}
                 />
                 <ProjectCard
                   id={3}
                   title="Kriminalstatistik Bernn"
-                  description="This is a really cool project that does amazing things with cutting-edge technology!"
+                  description="Darstellung der Kriminalstatistik von Bern."
                   icon={<Code2 size={32} />}
-                  technologies={["Next.js", "React"]}
-                  githubUrl="https://github.com/username/awesome-project"
+                  technologies={[]}
+                  githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
                   stars={0}
                   forks={0}
                 />
                 <ProjectCard
                   id={4}
                   title="Pixoo"
-                  description="This is a really cool project that does amazing things with cutting-edge technology!"
+                  description="Pixoo64 Display programmiert mit Python mit adaptiven Wetter Icons, Temperatur, Datum und Zeit"
                   icon={<Code2 size={32} />}
-                  technologies={["Next.js", "React"]}
-                  githubUrl="https://github.com/username/awesome-project"
+                  technologies={["Python"]}
+                  githubUrl="https://github.com/fst135207/pixoo"
                   stars={0}
                   forks={0}
                 />

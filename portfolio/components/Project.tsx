@@ -42,7 +42,7 @@ export default function ProjectCard({
           <div>
             <CardTitle className="text-xl text-blue-500">{title}</CardTitle>
             {technologies.map((tech) => (
-              <Badge key={id} variant="outline" className="mt-1 text-indigo-400 mr-1">
+              <Badge key={id} variant="secondary" className="text-gray-900 hover:bg-blue-200 mt-1 mr-1">
                 <span className="technology">{tech}</span>
               </Badge>
             ))}
@@ -50,7 +50,7 @@ export default function ProjectCard({
         </div>
       </CardHeader>
       <Separator />
-      <CardContent className="pt-4">
+      <CardContent className="pt-0.5">
         <CardDescription className="text-md text-gray-700 min-h-[80px]">{description}</CardDescription>
       </CardContent>
       <CardFooter className="flex justify-between pt-0">
