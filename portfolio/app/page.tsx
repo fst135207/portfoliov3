@@ -3,7 +3,7 @@ import Describtion from "@/components/Describtion"
 import Experience from "@/components/Experience"
 import Education from "@/components/Education"
 import ProjectCard from "@/components/Project"
-import { Code2, GraduationCap } from "lucide-react"
+import { Code2 } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 
 export default function Home() {
