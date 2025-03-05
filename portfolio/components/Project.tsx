@@ -36,7 +36,7 @@ export default function ProjectCard({
 
   return (
     <Card className="w-full max-w-sm h-auto transition-all duration-300 hover:shadow-md">
-      <CardHeader className="pb-2">
+      <CardHeader className="pb-3">
         <div className="flex items-center gap-3">
           <div className="text-3xl text-primary">{icon}</div>
           <div>
@@ -50,10 +50,10 @@ export default function ProjectCard({
         </div>
       </CardHeader>
       <Separator />
-      <CardContent className="pt-0.5">
+      <CardContent className="pt-2">
         <CardDescription className="text-md text-gray-700 min-h-[80px]">{description}</CardDescription>
       </CardContent>
-      <CardFooter className="flex justify-between pt-0">
+      <CardFooter className="flex justify-between pt-0.5">
         <div className="flex items-center gap-3 text-sm text-muted-foreground">
           {isGithubProject && (
             <>

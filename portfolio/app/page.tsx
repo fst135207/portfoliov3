@@ -17,6 +17,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-blue-600 mb-2">Meine Projekte</h2>
           <p className="text-gray-800 text-sm sm:text-base">Eine sammlung an Projekten an denen ich momentan arbeite.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+            {/*
           <ProjectCard
                   id={1}
                   title="Cooked or Cracked"
@@ -27,21 +28,22 @@ export default function Home() {
                 />
                 <ProjectCard
                   id={2}
-                  title="Portfolio V3"
-                  description="Mein jetziges Portfolio."
-                  icon={<Code2 size={32} />}
-                  technologies={["Next.js", "React", "Typescript"]}
-                  githubUrl="https://github.com/fst135207/portfoliov3"
-                  stars={0}
-                  forks={0}
-                />
-                <ProjectCard
-                  id={3}
                   title="Kriminalstatistik Bernn"
                   description="Darstellung der Kriminalstatistik von Bern."
                   icon={<Code2 size={32} />}
                   technologies={[]}
                   githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
+                  stars={0}
+                  forks={0}
+                />
+                */}
+                <ProjectCard
+                  id={3}
+                  title="Portfolio V3"
+                  description="Mein jetziges Portfolio."
+                  icon={<Code2 size={32} />}
+                  technologies={["Next.js", "React", "Typescript"]}
+                  githubUrl="https://github.com/fst135207/portfoliov3"
                   stars={0}
                   forks={0}
                 />
@@ -78,6 +80,7 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-blue-600">Meine Projekte</h2>
               <p className="text-gray-800 text-sm sm:text-base">Eine sammlung an Projekten an denen ich momentan arbeite.</p>
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 mt-4">
+                {/*
                 <ProjectCard
                   id={1}
                   title="Cooked or Cracked"
@@ -96,13 +99,14 @@ export default function Home() {
                   stars={0}
                   forks={0}
                 />
+                */}
                 <ProjectCard
                   id={3}
-                  title="Kriminalstatistik Bernn"
-                  description="Darstellung der Kriminalstatistik von Bern."
+                  title="Portfolio V3"
+                  description="Mein jetziges Portfolio."
                   icon={<Code2 size={32} />}
-                  technologies={[]}
-                  githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
+                  technologies={["Next.js", "React", "Typescript"]}
+                  githubUrl="https://github.com/fst135207/portfoliov3"
                   stars={0}
                   forks={0}
                 />
