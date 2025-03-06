@@ -32,7 +32,7 @@ export default function Home() {
                   title="Kriminalstatistik Bern"
                   description="Darstellung der Kriminalstatistik des Kanton Bern."
                   icon={<Code2 size={32} />}
-                  technologies={["Next.js","React","Typescript","Python","Chart.Js","PostgreSQL","PostgreSQL"]}
+                  technologies={["Next.js","React","Typescript","Python","Chart.Js","PostgreSQL"]}
                   githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
                   stars={0}
                   forks={0}
@@ -95,7 +95,7 @@ export default function Home() {
                   title="Kriminalstatistik Bern"
                   description="Darstellung der Kriminalstatistik des Kanton Bern."
                   icon={<Code2 size={32} />}
-                  technologies={["Next.js","React","Typescript","Python","Chart.Js","PostgreSQL","PostgreSQL"]}
+                  technologies={["Next.js","React","Typescript","Python","Chart.Js","PostgreSQL"]}
                   githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
                   stars={0}
                   forks={0}
