@@ -26,17 +26,17 @@ export default function Home() {
                   technologies={["Next.js", "React", "Typescript", "PostgreSQL", "Django", "Redis", "Docker", "AWS EKS"]}
                   projectUrl="https://cookedorcracked.com"
                 />
+                */}
                 <ProjectCard
                   id={2}
-                  title="Kriminalstatistik Bernn"
-                  description="Darstellung der Kriminalstatistik von Bern."
+                  title="Kriminalstatistik Bern"
+                  description="Darstellung der Kriminalstatistik des Kanton Bern."
                   icon={<Code2 size={32} />}
-                  technologies={[]}
+                  technologies={["Next.js","React","Typescript","Python","Chart.Js","PostgreSQL","PostgreSQL"]}
                   githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
                   stars={0}
                   forks={0}
                 />
-                */}
                 <ProjectCard
                   id={3}
                   title="Portfolio V3"
@@ -89,17 +89,17 @@ export default function Home() {
                   technologies={["Next.js", "React", "Typescript", "PostgreSQL", "Django", "Redis", "Docker", "AWS EKS"]}
                   projectUrl="https://cookedorcracked.com"
                 />
+                */}
                 <ProjectCard
                   id={2}
-                  title="Portfolio V3"
-                  description="Mein jetziges Portfolio."
+                  title="Kriminalstatistik Bern"
+                  description="Darstellung der Kriminalstatistik des Kanton Bern."
                   icon={<Code2 size={32} />}
-                  technologies={["Next.js", "React", "Typescript"]}
-                  githubUrl="https://github.com/fst135207/portfoliov3"
+                  technologies={["Next.js","React","Typescript","Python","Chart.Js","PostgreSQL","PostgreSQL"]}
+                  githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
                   stars={0}
                   forks={0}
                 />
-                */}
                 <ProjectCard
                   id={3}
                   title="Portfolio V3"
