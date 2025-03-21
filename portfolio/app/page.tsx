@@ -70,23 +70,13 @@ export default function Home() {
               <h2 className="text-2xl font-bold text-blue-600">Meine Projekte</h2>
               <p className="text-gray-800 text-sm sm:text-base">Eine sammlung an Projekten an denen ich momentan arbeite.</p>
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 mt-4">
-                {/*
-                <ProjectCard
-                  id={1}
-                  title="Cooked or Cracked"
-                  description="Kleines Side-Project, finde heraus ob du in deinem Fachgebiet Cooked oder Cracked bist."
-                  icon={<GraduationCap size={32} />}
-                  technologies={["Next.js", "React", "Typescript", "PostgreSQL", "Django", "Redis", "Docker", "AWS EKS"]}
-                  projectUrl="https://cookedorcracked.com"
-                />
-                */}
-                <ProjectCard
+               <ProjectCard
                   id={2}
-                  title="Kriminalstatistik Bern"
-                  description="Darstellung der Kriminalstatistik des Kanton Bern."
-                  icon={<Code2 size={32} />}
-                  technologies={["Next.js","React","Typescript","Python","Chart.Js","PostgreSQL"]}
-                  githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
+                  title="ansible-proxmox-iac"
+                  description="Automatisierte Bereitstellung virtueller Maschinen, VLANs und Netzwerkkomponenten auf einem lokalen Proxmox-Server mittels Ansible."
+                  icon={<ServerCog size={32} />}
+                  technologies={["Proxmox VE","Ansible","Bash","Pfsense","OVS","NAS"]}
+                  githubUrl="https://github.com/fst135207/ansible-proxmox-iac"
                   stars={0}
                   forks={0}
                 />
