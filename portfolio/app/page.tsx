@@ -17,16 +17,6 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-blue-600 mb-2">Meine Projekte</h2>
           <p className="text-gray-800 text-sm sm:text-base">Eine sammlung an Projekten an denen ich momentan arbeite.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-            {/*
-          <ProjectCard
-                  id={1}
-                  title="Cooked or Cracked"
-                  description="Kleines Side-Project, finde heraus ob du in deinem Fachgebiet Cooked oder Cracked bist."
-                  icon={<GraduationCap size={32} />}
-                  technologies={["Next.js", "React", "Typescript", "PostgreSQL", "Django", "Redis", "Docker", "AWS EKS"]}
-                  projectUrl="https://cookedorcracked.com"
-                />
-                */}
                 <ProjectCard
                   id={2}
                   title="Kriminalstatistik Bern"
