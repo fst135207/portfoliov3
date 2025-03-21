@@ -3,7 +3,7 @@ import Describtion from "@/components/Describtion"
 import Experience from "@/components/Experience"
 import Education from "@/components/Education"
 import ProjectCard from "@/components/Project"
-import { Code2 } from "lucide-react"
+import { Code2, ServerCog } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 
 export default function Home() {
@@ -19,11 +19,11 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                 <ProjectCard
                   id={2}
-                  title="Kriminalstatistik Bern"
-                  description="Darstellung der Kriminalstatistik des Kanton Bern."
-                  icon={<Code2 size={32} />}
-                  technologies={["Next.js","React","Typescript","Python","Chart.Js","PostgreSQL"]}
-                  githubUrl="https://github.com/fst135207/Kriminalstatistik-Bern"
+                  title="ansible-proxmox-iac"
+                  description="Automatisierte Bereitstellung virtueller Maschinen, VLANs und Netzwerkkomponenten auf einem lokalen Proxmox-Server mittels Ansible."
+                  icon={<ServerCog size={32} />}
+                  technologies={["Proxmox VE","Ansible","Bash","Pfsense","OVS","NAS"]}
+                  githubUrl="https://github.com/fst135207/ansible-proxmox-iac"
                   stars={0}
                   forks={0}
                 />
